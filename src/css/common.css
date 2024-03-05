@@ -1,0 +1,33 @@
+table{
+    border: 1px solid gray;
+    height: 150px;
+    border-collapse: collapse;
+}
+
+thead {
+    /* background-color: lightgray; */
+    background-color: lightgray;
+
+}
+
+table tr{
+    border: 1px solid gray;
+}
+
+.btn-area {
+    justify-content: end;
+    display: flex;
+    width: 75%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+form div{
+    margin-bottom: 20px;
+}
+form label{
+    margin-right: 20px;
+}
